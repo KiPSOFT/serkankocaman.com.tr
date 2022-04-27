@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Serkan KOCAMAN | node.js Developer, Full-Stack Developer, Rust hobbiest.`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Hi everyone 🖖`,
     // Optional: Twitter account handle
     author: `@KiPSOFT`,
     // Optional: Github account URL
@@ -15,9 +15,11 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/serkankocaman/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm Serkan KOCAMAN, Fullstack developer from Izmir, Turkey. I have twenty years of developer experience. I started developing with pascal. then Delphi. I have been working with web technologies and node.js for about 6 years. I have knowledge of PHP, c#, c, python. I am interested in rust and go as a hobby. I have experience with MongoDB, MySQL, AWS ECS, AWS Fargate, Kubernetes, AWS CloudFront, AWS S3 and GCP.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [      
+    projects: [
+      {name: 'Coder Quiz Bot', description: 'CoderQuiz Telegram Bot: Quiz bot for coders.', link: 'https://t.me/CoderQuizBot'},
+      {name: 'RadioGarden Bot', description: 'RadioGarden link generator Telegram bot.', link: 'https://t.me/radiogardenbot'}
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [      
