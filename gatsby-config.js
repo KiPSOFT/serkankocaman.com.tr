@@ -59,10 +59,9 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-well-known`,
       options: {
-        path: `${__dirname}/.well-known`,
-        name: `.well-known`
+        source: './.well-known',
       }
     },
     {
